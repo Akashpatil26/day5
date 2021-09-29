@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class QuoRem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int dividend = sc.nextInt();
+        int divisor = sc.nextInt();
+
+        int quotient = dividend/divisor;
+        int remaindr = dividend%divisor;
+        System.out.println("Quotient"+quotient+ " ,Remainder"+ remaindr);
+    }
+}
